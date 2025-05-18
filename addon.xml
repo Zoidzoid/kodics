@@ -1,0 +1,13 @@
+<addon id="script.image.kodics" version="0.1.0" name="Kodics" provider-name="typewriterMonkey">
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>image</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_US">Barebones comic reader for Kodi. Displays images fitting the width while maintaining aspect ratio, with panning controls.</summary>
+        <description lang="en_US"> Kodics is a bloated, buggy, slow, insecure and unsuported code made by a monkey with a typewriter. I do not really know how it does anything because I am no programmer and I made it with AI. All in all it seems to work for me. It tries to open images to fit the width of the screen while maintaining their aspect ratio and allows panning up and down.</description>
+        <platform>all</platform>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+		</assets>
+    </extension>
+</addon>
